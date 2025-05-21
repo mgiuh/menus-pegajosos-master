@@ -115,7 +115,13 @@ aside {
 	border-radius: 3px;
 }
 
-aside .titulo {
+aside .indice {
+    position: sticky;
+    top: 20px; /* Distancia desde la parte superior al hacer scroll */
+    z-index: 100;
+	}
+
+	aside .titulo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	font-size: 24px;
